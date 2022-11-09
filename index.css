@@ -1,0 +1,29 @@
+* {
+    background-color: rgb(108, 225, 194);
+}
+
+html, body {
+    font-family: 'Merienda', cursive;
+    color: rgb(60, 60, 60);
+    margin: 0;
+}
+
+/* typography */
+
+/* h1 {
+    font-weight: 700;
+} */
+
+span {
+    color:rgb(255, 42, 49);
+    font-style:oblique;
+}
+
+/* layout */
+
+.header {
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    padding: 20px 50px;
+}
+
