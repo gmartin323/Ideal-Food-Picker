@@ -32,12 +32,23 @@
       </section>
       <section class="filter-box">
         <h3>Extra Filters</h3>
-        <input type="text" placeholder="Breakfast/Lunch/Dinner" />
+        <input list="meal" placeholder="Which meal?" />
+        <datalist id="meal">
+          <option value="Breakfast"></option>
+          <option value="Lunch"></option>
+          <option value="Dinner"></option>
+        </datalist>
         <input type="text" placeholder="Price?" />
       </section>
       <button>Suggest a Place!</button>
     </main>
-    <div class="modal"></div>
+    <div class="modal">
+      <div class="modal-inner">
+        <h1>You should go for...</h1>
+        <section class="dish-info">This dish</section>
+        <section class="restaurant-info">at this restaurant</section>
+      </div>
+    </div>
     <script src="index.js" type="module"></script>
   </body>
 </html>
