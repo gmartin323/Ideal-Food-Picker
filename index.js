@@ -11,6 +11,7 @@ const mealFilter = document.getElementById("meal-filter");
 const priceFilter = document.getElementById("price-filter");
 const confirmBtn = document.getElementById("confirm-button");
 const modal = document.getElementById("modal");
+const closeModalBtn = document.getElementById("close-modal-btn")
 const modalInner = document.getElementById("modal-inner")
 
 /* get current day of the week */
@@ -196,5 +197,13 @@ function showModal() {
   modal.classList.add("block");
 }
 
+/* Close modal when click close-modal-btn */
+
+closeModalBtn.addEventListener("click", closeModal)
+
+function closeModal() {
+    modal.classList.remove("block");
+  modal.classList.add("hidden");
+}
 
 
