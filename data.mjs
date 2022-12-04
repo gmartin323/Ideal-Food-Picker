@@ -1,63 +1,3 @@
-export const ingredientArray = [
-    {   
-        name:"aubergine",
-        image:"aubergine.jpg"
-     
-    },
-    {
-        name:"bread",
-        image:"bread.jpg"
-    },
-    {
-        name:"falafel",
-        image:"falafel.jpg"
-    },
-    {
-        name:"fried tofu",
-        image:"fried-tofu.jpg"
-    },
-    {
-        name:"mushroom",
-        image:"mushroom.jpg"
-    },
-    {
-        name:"noodles",
-        image:"noodles.jpg"
-    },
-    {
-        name:"potato",
-        image:"potato.jpg"
-    },
-    {
-        name:"soft tofu",
-        image:"soft-tofu.jpg"
-    },
-    {
-        name:"tempeh",
-        image:"tempeh.jpg"
-    }
-]
-
-export const typeArray = [
-    {
-        name:"healthy",
-        image:"./images/type/healthy.png"
-    },
-    {
-        name:"unhealthy",
-        image:"./images/type/unhealthy.png"
-    },
-    {
-        name:"soupy",
-        image:"./images/type/soupy.png"
-    },
-    {
-        name:"saucy",
-        image:"./images/type/saucy.png"
-    },
-]
-
-
 export const dishArray = [
   {
     name: "Herby Sandwich",
@@ -123,7 +63,7 @@ export const dishArray = [
     name: "Rosemary & Garlic Fries",
     restaurant: "Sunkats",
     meal: ["breakfast", "lunch", "dinner"],
-    type: "unhealthy",
+    type: "string",
     ingredients: ["potato"],
     price: 45000,
     closedDay: "",
