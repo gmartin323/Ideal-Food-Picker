@@ -33,6 +33,44 @@ html, body {
     height: 200px;
 }
 
+.choice-container {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.ingredient-choices {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(210px, 100%/4)), 1fr));
+    justify-items: center;
+    justify-content: center;
+  
+}
+
+.type-choices {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(210px, 100%/3)), 1fr));
+    justify-items: center;
+    justify-content: center;
+}
+  
+.choice {
+    width: 210px;
+    height: 210px;
+    max-width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+
+}
+
+/* .type-choices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} */
+
 .ingredient-image {
     object-fit: cover;
     width: 200px;
