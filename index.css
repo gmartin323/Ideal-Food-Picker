@@ -94,8 +94,16 @@ html, body {
     width: 75%;
 }
 
-.dish-img {
+.dish-img-container {
     height: 100%;
+    border: solid #555 4px;
+    border-radius: 4px;
+}
+
+.dish-img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .dish-info {

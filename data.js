@@ -61,6 +61,7 @@ export const typeArray = [
 export const dishArray = [
   {
     name: "Herby Sandwich",
+    image: "images/dish/herby sandwich.jpg",
     restaurant: "La Studio",
     meal: ["breakfast", "lunch"],
     type: "healthy",
@@ -71,6 +72,7 @@ export const dishArray = [
   },
   {
     name: "Tempeh Bagel",
+    image: "images/dish/tempeh bagel.jpeg",
     restaurant: "La Studio",
     meal: ["breakfast", "lunch"],
     type: "healthy",
@@ -81,6 +83,7 @@ export const dishArray = [
   },
   {
     name: "BBQ Pulled Mushroom Sandwich",
+    image: "images/dish/bbq pulled mushroom sandwich.jpg",
     restaurant: "Labonte",
     meal: ["lunch"],
     type: "healthy",
@@ -91,6 +94,7 @@ export const dishArray = [
   },
   {
     name: "Chicken Burger",
+    image: "images/dish/chicken burger.jpg",
     restaurant: "Kiez",
     meal: ["lunch", "dinner"],
     type: "unhealthy",
@@ -101,6 +105,7 @@ export const dishArray = [
   },
   {
     name: "Red",
+    image: "images/dish/red.jpg",
     restaurant: "Sol",
     meal: ["dinner"],
     type: "unhealthy",
@@ -111,6 +116,7 @@ export const dishArray = [
   },
   {
     name: "Burrito",
+    image: "images/dish/burrito.jpg",
     restaurant: "Anita's Cantina",
     meal: ["dinner"],
     type: "unhealthy",
@@ -121,6 +127,7 @@ export const dishArray = [
   },
   {
     name: "Rosemary & Garlic Fries",
+    image: "images/dish/rosemary & garlic fries.jpg",
     restaurant: "Sunkats",
     meal: ["breakfast", "lunch", "dinner"],
     type: "unhealthy",
@@ -131,6 +138,7 @@ export const dishArray = [
   },
   {
     name: "Poke Bowl",
+    image: "images/dish/poke bowl.jpg",
     restaurant: "Poke Hanoi",
     meal: ["lunch", "dinner"],
     type: "healthy",
@@ -141,6 +149,7 @@ export const dishArray = [
   },
   {
     name: "Japanese Authentic Ramen",
+    image: "images/dish/japanese authentic ramen.jpg",
     restaurant: "Vege-ro",
     meal: ["dinner"],
     type: "soupy",
@@ -151,6 +160,7 @@ export const dishArray = [
   },
   {
     name: "Bun Cha Hai Ngu",
+    image: "images/dish/bun cha hai ngu.jpg",
     restaurant: "Thien Tra Dao",
     meal: ["lunch", "dinner"],
     type: "healthy",
@@ -161,6 +171,7 @@ export const dishArray = [
   },
   {
     name: "Pad Thai",
+    image: "images/dish/pad thai.jpg",
     restaurant: "Thien Tra Dao",
     meal: ["lunch", "dinner"],
     type: "saucy",
@@ -171,6 +182,7 @@ export const dishArray = [
   },
   {
     name: "Pho Chay",
+    image: "images/dish/pho chay.jpeg",
     restaurant: "Vegan Noodles Lo Duc",
     meal: ["breakfast", "lunch"],
     type: "soupy",
@@ -181,6 +193,7 @@ export const dishArray = [
   },
   {
     name: "Pho Tron Chay",
+    image: "images/dish/pho tron.jpg",
     restaurant: "Vegan Noodles Lo Duc",
     meal: ["breakfast", "lunch"],
     type: "healthy",
@@ -191,6 +204,7 @@ export const dishArray = [
   },
   {
     name: "Tokyo Bowl",
+    image: "images/dish/tokyo bowl.jpg",
     restaurant: "iVegan",
     meal: ["lunch", "dinner"],
     type: "healthy",
@@ -201,6 +215,7 @@ export const dishArray = [
   },
   {
     name: "Falafel Bowl",
+    image: "images/dish/falafel bowl.jpg",
     restaurant: "iVegan",
     meal: ["lunch", "dinner"],
     type: "healthy",
@@ -211,6 +226,7 @@ export const dishArray = [
   },
   {
     name: "Tofu Scramble",
+    image: "images/dish/tofu scramble.jpg",
     restaurant: "iVegan",
     meal: ["breakfast", "lunch"],
     type: "healthy",
@@ -221,6 +237,7 @@ export const dishArray = [
   },
   {
     name: "Đậu Phụ Sốt Cà Chua",
+    image: "images/dish/Đậu Phụ Sốt Cà Chua.jpeg",
     restaurant: "La Grace",
     meal: ["lunch", "dinner"],
     type: "saucy",
@@ -231,6 +248,7 @@ export const dishArray = [
   },
   {
     name: "Bánh Mì Chào Nam",
+    image: "images/dish/Bánh Mì Chào Nam.jpg",
     restaurant: "Bánh Mì 25",
     meal: ["breakfast", "lunch"],
     type: "saucy",
