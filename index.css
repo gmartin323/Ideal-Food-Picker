@@ -4,10 +4,10 @@
 
 html, body {
     font-family: 'Merienda', cursive;
-    color: rgb(60, 60, 60);
+    color: rgb(00, 00, 30);
     margin: 0;
     text-align: center;
-    /* background-color: rgb(108, 225, 194); */
+    background-color: rgb(203, 229, 245);
 }
 
 /* typography */
@@ -24,17 +24,16 @@ html, body {
 /* layout */
 
 .header {
-    border: 5px solid whitesmoke;
-    border-radius: 20px;
     padding: 20px 50px;
+    margin: 20px 50px 0px 50px;
 }
 
-.header img {
+/* .header img {
     height: 200px;
-}
+} */
 
 .choice-container {
-    max-width: 800px;
+    max-width: 1000px;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -43,7 +42,7 @@ html, body {
 .ingredient-choices {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(210px, 100%/4)), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(280px, 100%/5)), 1fr));
     justify-items: center;
     justify-content: center;
   
@@ -52,38 +51,50 @@ html, body {
 .type-choices {
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(210px, 100%/3)), 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(min(100%/2, max(280px, 100%/3)), 1fr));
     justify-items: center;
     justify-content: center;
 }
   
 .choice {
-    width: 210px;
-    height: 210px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 280px;
+    height: 280px;
     max-width: 100%;
-    padding-bottom: 20px;
-    text-align: center;
+    background: url("/images/blob.svg");
+    background-size: cover;
 
 }
 
-/* .type-choices {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-} */
+.ingredient-choices .choice {
+    justify-content: flex-end;
+}
 
-.ingredient-image {
+.ingredient-image, .type-image {
     object-fit: cover;
-    width: 200px;
-    height: 160px;
-    border: 5px solid cornsilk;
-    border-radius: 8px;
+    width: 170px;
+    height: 140px;
+    border-radius: 20px;
 }
 
-.type-image {
-    width: 200px;
-    height: 160px;
-    border: 5px solid cornsilk;
-    border-radius: 8px;
+.ingredient-name {
+    color: inherit;
+    font-size: 28px;
+    margin-top: 14px;
+    margin-bottom: 42px;
+}
+
+.confirm-button {
+    font-size: 36px;
+    margin: 30px;
+    padding: 30px 60px;
+    border-radius: 72px;
+    border-style: none;
+    background-color: #87C3E8;
+    color: #000030;
+    cursor: pointer;
 }
 
 /* modal */
@@ -215,6 +226,7 @@ label {
 }
 
 .highlight {
-    background: #fff0ee;
+    background: url("/images/blob-invert.svg");
+    color: whitesmoke;
     font-weight: bold;
 }

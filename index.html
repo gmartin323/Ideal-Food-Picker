@@ -14,28 +14,25 @@
     <body>
       <header class="header">
       <h1>What are you in <span>the mood</span> for?</h1>
-      <img src="images/ingredient/aubergine.jpg">
+      <!-- test image <img src="images/ingredient/aubergine.jpg"> -->
     </header>
     <main>
       <section class="choice-container" id="choice-container">
-        <h2>Choose one...</h2>
+        <div class="meal-choice">
+          <input id="meal-filter" list="meal" placeholder="Which meal?" />
+          <datalist id="meal">
+            <option value="Breakfast"></option>
+            <option value="Lunch"></option>
+            <option value="Dinner"></option>
+          </datalist>
+        </div>
         <div class="ingredient-choices" id="ingredient-choices">
         </div>
         <hr>
         <div class="type-choices" id="type-choices">
         </div>
       </section>
-      <section class="filter-box">
-        <h3>Extra Filters</h3>
-        <input id="meal-filter" list="meal" placeholder="Which meal?" />
-        <datalist id="meal">
-          <option value="Breakfast"></option>
-          <option value="Lunch"></option>
-          <option value="Dinner"></option>
-        </datalist>
-        <input type="text" placeholder="Price?" />
-      </section>
-      <button id="confirm-button">Suggest a Place!</button>
+      <button id="confirm-button" class="confirm-button">Suggest a Place!</button>
     </main>
     <div id="modal" class="modal hidden">
         <button class="close-modal-btn" id="close-modal-btn">X</button>

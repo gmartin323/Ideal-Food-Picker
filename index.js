@@ -128,7 +128,7 @@ function renderIngredientChoices(dishes) {
             <label for="${ingredient}">
               <img src = "./images/ingredient/${result.image}" class="ingredient-image">
             </label>
-            <p>${ingredient}</p>
+            <p class="ingredient-name">${ingredient}</p>
             <input
                 type="radio"
                 id="${ingredient}"
