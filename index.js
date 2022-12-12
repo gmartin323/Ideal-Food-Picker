@@ -31,12 +31,13 @@ function renderDish() {
         </section>
         <section class="restaurant-container">
             <div class="restaurant-info">  
-                <div class="restaurant-name">at<br>${dishObject.restaurant}</div>
+                <div class="restaurant-name">at<span class="restaurant-name-span">${dishObject.restaurant}</span></div>
                 <div class="dish-price">Price: ${dishObject.price}₫</div>
             </div>                
             <div class="restaurant-map-container">
-                <div class="restaurant-map">map</div>
-                <div class="restaurant-address">address</div>
+                <div class="restaurant-map"><iframe src="${dishObject.location}" width="100% height: "100%"
+                style="border-radius: 8px;","border-style: none" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+                <div class="restaurant-address">${dishObject.address}</div>
             </div>
         </section>
         `;
