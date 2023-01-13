@@ -238,6 +238,7 @@ and (min-device-width : 768px) {
 .restaurant-address {
     height: 20%;
     width: 80%;
+    line-height: 1.25em;
     display: flex;
     align-items: center;
     justify-content: center;
