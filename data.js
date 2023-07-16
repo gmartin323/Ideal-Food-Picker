@@ -89,8 +89,8 @@ export const dishArray = [
     name: "BBQ Pulled Mushroom Sandwich",
     image: "images/dish/bbq pulled mushroom sandwich.jpg",
     restaurant: "Labonte",
-    location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3723.2807554027295!2d105.82514945064176!3d21.061445991968405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135abc0a6457505%3A0x764484795cb4a953!2sL%C3%A1%20Studio!5e0!3m2!1sen!2s!4v1670831908043!5m2!1sen!2s",
-    address:"44 Ng.31 Đ. Xuân Diệu, Quảng An, Tây Hồ, Hà Nội",
+    location: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29791.914646254187!2d105.77179437431639!3d21.0331129!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135ab968102cbd9%3A0x7a03eeb9d510e5af!2sLabonte!5e0!3m2!1sen!2sth!4v1689508951204!5m2!1sen!2sth",
+    address:"93 P. Linh Lang, Cống Vị, Ba Đình, Hà Nội, Vietnam",
     meal: ["lunch"],
     type: "healthy",
     ingredients: ["bread", "mushroom"],
@@ -277,7 +277,7 @@ export const dishArray = [
     type: "saucy",
     ingredients: ["fried tofu"],
     price: 60000,
-    closedDay: "string",
+    closedDay: "",
     isOpen: true,
   },
   {
@@ -290,7 +290,7 @@ export const dishArray = [
     type: "saucy",
     ingredients: ["mushroom"],
     price: 59000,
-    closedDay: "string",
+    closedDay: "",
     isOpen: true,
   },
 ];
